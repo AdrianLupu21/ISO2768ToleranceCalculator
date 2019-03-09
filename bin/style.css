@@ -1,0 +1,80 @@
+.root{
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+}
+.index{
+	-fx-background-image: url("background.jpg");
+	-fx-background-size: cover;
+}
+.prescrieri{
+	-fx-background-color : #e0e0e0;
+	-fx-cursor : pointer;
+}
+.prescrieri:hover{
+	-fx-background-color :#ffffff;
+	-fx-cursor: hand;
+}
+.prescrieri:active{
+	-fx-background-color : #111;
+}
+.buton{
+	-fx-padding: 10px;
+}
+.buton:hover{
+	-fx-background-color : #fff;
+	-fx-cursor: hand;
+}
+.elem{
+	-fx-width:400px;
+	-fx-height:400px;
+	-fx-border: 3px solid #fff
+}
+.elem:hover{
+	-fx-cursor: hand;
+	-fx-opacity: 0.4;
+	-fx-width:400px;
+	-fx-height:400px;
+	-fx-border: 3px solid #fff
+}
+.back{
+	-fx-focus-color: transparent;
+	-fx-faint-focus-color: transparent;
+	-fx-background-image : url("backgroundTitle.jpg");
+}
+.back:hover{
+	-fx-cursor: hand;
+	-fx-background-image : url("backgroundTitle2.jpg");
+}
+.mill{
+	-fx-background-image: url("mil.jpg");
+}
+.hbox{
+	-fx-background-color: #e0e0e0;
+}
+.nav{
+	-fx-background-color: #4286f4;
+}
+.nav:hover{
+	-fx-cursor: hand;
+	-fx-background-color: #4f92ff;
+}
+.minimize{
+	-fx-background-image : url("minimize.png");
+	-fx-background-size : contain;
+	-fx-background-repeat : no-repeat;
+}
+.close{
+	-fx-padding: 10px;
+	-fx-background-image : url("close.png");
+	-fx-background-size : contain;
+	-fx-background-repeat : no-repeat;
+}
+.close2:hover{
+	-fx-background-color: #c64b3d;
+	-fx-cursor: hand;
+	
+}
+
+.title{
+	-fx-background-image : url("backgroundTitle.jpg");
+}
